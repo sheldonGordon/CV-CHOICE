@@ -1,29 +1,45 @@
-@import 'scss/reset';
-@import 'scss/base';
-
-body {
-  padding: 32px;
+html{
+  height: 100vh;
 }
 
-.hero {
-  height: 100%;
-  background: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-
-  h1 {
-    font-size: calc(54vw * 100 / 1440);
-    margin-bottom: calc(12vw * 100 / 1440);
-  }
-
-  p {
-    font-size: calc(24vw * 100 / 1440);
-  }
+body{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-a {
-  text-decoration: underline;
+div{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.button1{
+  background-color: #4CAF50;
+}
+
+.button2{
+  background-color: #008CBA;
+}
+
+.button3{
+  background-color: #e7e7e7;
+  color: black;
 }
